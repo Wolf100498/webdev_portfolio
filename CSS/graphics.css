@@ -1,0 +1,187 @@
+:root {
+  --first-color: #56a3a6ff;
+  /* --second-color: #c16200ff; */
+  --second-color: #ff5f00ff;
+  --third-color: #212227ff;
+  --fourth-color: #e0ca3cff;
+  --fifth-color: #fceff9ff;
+
+  --sixth-color: #2E0249;
+  --erro-color: #C20114;
+
+  --nineth-color: rgb(41,41,41);
+  --seventh-color: rgb(34,34,34);
+  --eigth-color: rgb(31,31,31);
+
+}
+
+/* .d-flex{
+  justify-content: space-between !important; 
+  
+} */
+.navbar {
+  /* background-color: var(--third-color); */
+  background-color: var(--nineth-color);
+} 
+
+h1,
+h2,
+h3,
+h4,
+p,
+i{
+color: var(--fifth-color);
+}
+
+#logo {
+  color: var(--fifth-color);
+  transition: transform 0.5s;
+  font-weight: 700;
+}
+
+#logo:hover {
+  color: var(--second-color);
+  transform: scale(1.2);
+}
+
+.fixed-top .container a .dev {
+  color: var(--sixth-color);
+}
+
+.menu {
+  color: var(--fifth-color);
+}
+
+.active {
+  color: var(--second-color) !important;
+}
+
+.navbar-nav li a{
+  color: var(--third-color);
+}
+
+.navbar-nav li a:hover {
+  color: var(--second-color) !important;
+  
+}
+
+.navbar-nav li a:visited{
+  color: var(--fifth-color);
+}
+
+.dropdown-menu li a {
+  color: var(--third-color) !important;
+}
+
+
+
+/* section 1  */
+
+
+
+.section-1 {
+  background-color: var(--third-color);
+  overflow: hidden;
+}
+
+.section-1 .container .abs {
+  font-size: 20vmin;
+  font-weight: 900;
+  opacity: 0.4;
+  letter-spacing: 3px;
+  color: var(--sixth-color);
+  top: 4rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1 !important;
+}
+
+.section-1 .r3 {
+  padding: 5rem;
+  padding-top: 6rem;
+}
+
+
+
+.col .portfolio {
+
+}
+
+.col-12 .portfolio h1 {
+  font-weight: 700;
+  letter-spacing: 5px;
+  z-index: 10 !important;
+  font-size: 10vmin;
+}
+
+
+
+/* section 2      */
+
+
+.section-2 {
+  background-color: var(--eigth-color);
+  padding-top: 10vmin;
+  padding-bottom: 10vmin;
+}
+
+#desc {
+  background-color: rgba(41, 41, 41, 0.5);
+}
+
+.section-2 .n2d {
+  justify-content: center;
+}
+
+
+
+
+
+
+/* section     contact */
+
+#contact {
+  background-color: var(--eigth-color);
+}
+
+.container-fluid {
+  background-color: var(--sixth-color);
+  
+}
+
+.section-contact .h4 {
+  color: var(--fifth-color);
+}
+
+.section-contact .container {
+  
+}
+
+.section-contact .container p .bi {
+  color: var(--second-color);
+}
+
+.section-contact form textarea {
+  resize: none;
+}
+
+.section-contact form button {
+  background-color: var(--second-color);
+  color: var(--fifth-color);
+  transition: transform 0.3s;
+}
+
+.section-contact form button:hover {
+  background-color: var(--second-color);
+  color: var(--fifth-color);
+  transform: scale(1.1);
+} 
+
+.section-contact .form {
+  background-color: var(--nineth-color);
+  border-radius: 10px;
+}
+
+#footer {
+  background-color:var(--nineth-color);
+}
