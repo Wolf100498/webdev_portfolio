@@ -101,13 +101,6 @@ color: var(--fifth-color);
   padding: 5rem;
   padding-top: 6rem;
 }
-
-
-
-.col .portfolio {
-
-}
-
 .col-12 .portfolio h1 {
   font-weight: 700;
   letter-spacing: 5px;
@@ -154,9 +147,6 @@ color: var(--fifth-color);
   color: var(--fifth-color);
 }
 
-.section-contact .container {
-  
-}
 
 .section-contact .container p .bi {
   color: var(--second-color);
