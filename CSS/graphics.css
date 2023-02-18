@@ -6,7 +6,8 @@
   --fourth-color: #e0ca3cff;
   --fifth-color: #fceff9ff;
 
-  --sixth-color: #2E0249;
+  --sixth-color: #631295;
+
   --erro-color: #C20114;
 
   --nineth-color: rgb(41,41,41);
@@ -57,7 +58,7 @@ color: var(--fifth-color);
 }
 
 .navbar-nav li a{
-  color: var(--third-color);
+  color: var(--fifth-color);
 }
 
 .navbar-nav li a:hover {
