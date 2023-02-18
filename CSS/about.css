@@ -59,7 +59,7 @@ color: var(--fifth-color);
 }
 
 .navbar-nav li a{
-  color: var(--third-color);
+  color: var(--fifth-color);
 }
 
 .navbar-nav li a:hover {
